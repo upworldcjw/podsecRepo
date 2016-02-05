@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
   s.subspec 'SinaWeibo' do |ss|
       ss.source_files  = 'PPShareSDK/SinaWeibo/*.{h,m}','PPShareSDK/NBShareServiceHeader.h','PPShareSDK/UIView+tmpImage.h'
       ss.ios.dependency 'JRSwizzle'
-      ss.ios.dependency 'WeiboSDK' , '~> 3.1.1'
+      ss.ios.dependency 'WeiboSDK' , '<= 3.1.1'
 #    ss.subspec 'libWeiboSDK' do |sss|
 #        sss.source_files  = 'PPShareSDK/SinaWeibo/libWeiboSDK/*.{h,m}'
 #        sss.vendored_libraries  = "PPShareSDK/SinaWeibo/libWeiboSDK/*.a"
