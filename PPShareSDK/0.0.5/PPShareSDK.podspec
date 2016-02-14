@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PPShareSDK"
-  s.version      = "0.0.3"
+  s.version      = "0.0.5"
   s.summary      = "PPShareSDK support share."
   #s.description  = <<-DESC
   #                 DESC
