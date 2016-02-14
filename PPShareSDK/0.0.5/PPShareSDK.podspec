@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   
   s.platform     = :ios, "7.0"
  
-  s.source       = { :git => "git@gitlab.pengpeng.la:ioscore/ppthirdsdk.git", :tag => "0.0.3" }
+  s.source       = { :git => "git@gitlab.pengpeng.la:ioscore/ppthirdsdk.git", :tag => "0.0.5" }
 
   s.source_files  = "PPShareSDK/*.{h,m}"
   s.exclude_files = "PPShareSDK/Exclude"
