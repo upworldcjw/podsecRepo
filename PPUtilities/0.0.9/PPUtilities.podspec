@@ -51,7 +51,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Category' do  |categorySub|
     categorySub.ios.dependency 'PPUtilities/Macro'
-
+    categorySub.source_files  = "PPUtilities/Category/NBCategory.h"
     categorySub.subspec 'ExternCategory' do |externCategorySub|
        externCategorySub.source_files  = "PPUtilities/Category/ExternCategory/**/*.{h,m}" 
     end
