@@ -9,7 +9,7 @@ s.author       = { "molon" => "dudl@qq.com" }
 
 s.source       = {
 :git => "https://github.com/upworldcjw/MLLabel",
-:tag => "#{s.version}"
+:tag => "MLLable_0.1.8"
 }
 
 s.platform     = :ios, '7.0'
