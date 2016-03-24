@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "jianwei.chen" => "1042294579@qq.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "git@gitlab.pengpeng.la:ioscore/ppuilibrary.git", :tag => "PPLocationManager_0.0.1" }
+  s.source       = { :git => "git@gitlab.pengpeng.la:ioscore/pplocation.git", :tag => "0.0.1" }
   
   s.ios.dependency "Masonry"
   s.ios.dependency "MSWeakTimer",'~> 1.1.0'
