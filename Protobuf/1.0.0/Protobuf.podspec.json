@@ -8,8 +8,8 @@
     "The Protocol Buffers contributors": "protobuf@googlegroups.com"
   },
   "source": {
-    "git": "https://github.com/google/protobuf.git",
-    "tag": "v3.0.0-beta-3-pre-1"
+    "git": "https://github.com/upworldcjw/protobuf.git",
+    "tag": "1.0.0"
   },
   "source_files": [
     "objectivec/*.{h,m}",
