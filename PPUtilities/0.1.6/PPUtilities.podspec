@@ -52,7 +52,7 @@ Pod::Spec.new do |s|
     end
 
     helperSub.subspec 'MLLabelHelper' do |mLLabelHelper|
-        mLLabelHelper.ios.dependency 'MLLabel'
+ #       mLLabelHelper.ios.dependency 'MLLabel'
         mLLabelHelper.source_files = "PPUtilities/Helper/MLLabelHelper/*.{h,m}"
     end
   end
