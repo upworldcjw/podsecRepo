@@ -3,13 +3,12 @@ s.name         = "XMLLabel"
 s.version      = "1.8"
 s.summary      = "UILabel with TextKit. support Link and Expression. (iOS 7+)"
 
-s.homepage     = 'https://github.com/molon/MLLabel'
+s.homepage     = 'https://github.com/upworldcjw'
 s.license      = { :type => 'MIT'}
-s.author       = { "molon" => "dudl@qq.com" }
+s.author       = { "upworldcjw" => "dudl@qq.com" }
 
 s.source       = {
-:git => "https://github.com/upworldcjw/MLLabel.git",
-:tag => "MLLable_0.1.8"
+:git => "https://github.com/upworldcjw/MLLabel.git"
 }
 
 s.platform     = :ios, '7.0'
