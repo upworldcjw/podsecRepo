@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-s.name         = "XMLLabel"
+s.name         = "MLLabel"
 s.version      = "1.8"
 s.summary      = "UILabel with TextKit. support Link and Expression. (iOS 7+)"
 
