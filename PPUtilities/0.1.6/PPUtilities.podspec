@@ -28,13 +28,13 @@ Pod::Spec.new do |s|
 
   s.source_files  = "PPUtilities/PPUtilities.h"
   s.public_header_files = "PPUtilities/PPUtilities.h"
-  
+  s.ios.dependency 'MLLabel'
 #  s.ios.dependency 'JGProgressHUD'
 #   s.ios.dependency 'MDHTMLLabel'
 #  s.ios.dependency 'MJRefresh'
 #  s.ios.dependency 'SDVersion'
   s.ios.dependency 'JRSwizzle'
-#  s.ios.dependency 'MLLabel'
+
   s.subspec 'Macro' do  |macro|
     macro.ios.dependency 'SDVersion'
     macro.source_files =  "PPUtilities/Macro/**/*.{h,m}"
@@ -52,7 +52,7 @@ Pod::Spec.new do |s|
     end
 
     helperSub.subspec 'MLLabelHelper' do |mLLabelHelper|
-        mLLabelHelper.ios.dependency 'MLLabel'
+#        mLLabelHelper.ios.dependency 'MLLabel'
         mLLabelHelper.source_files = "PPUtilities/Helper/MLLabelHelper/*.{h,m}"
     end
   end
