@@ -1,0 +1,171 @@
+{
+  "name": "PPUtilities",
+  "version": "0.2.4",
+  "summary": "PengPeng PPUtilities.",
+  "homepage": "https://test1/PPUtilitiesLite",
+  "license": "MIT",
+  "authors": {
+    "jianwei.chen": "1042294579@qq.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "git@gitlab.pengpeng.la:ioscore/pputility.git",
+    "tag": "0.2.4"
+  },
+  "requires_arc": true,
+  "default_subspecs": [
+    "Core",
+    "Category/Base",
+    "Category/JSON",
+    "Category/NSStringCategory",
+    "Category/IMCategory",
+    "Category/UIImageCategory",
+    "UI/Base",
+    "UI/UINavigationBarCategory",
+    "Helper/Base",
+    "Helper/UIDeviceHelper"
+  ],
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "PPUtilities/Core/**/*.{h,m}"
+    },
+    {
+      "name": "Category",
+      "subspecs": [
+        {
+          "name": "Base",
+          "source_files": "PPUtilities/Category/Base/**/*.{h,m}"
+        },
+        {
+          "name": "JSON",
+          "source_files": "PPUtilities/Category/JSON/**/*.{h,m}"
+        },
+        {
+          "name": "NSStringCategory",
+          "source_files": "PPUtilities/Category/NSStringCategory/**/*.{h,m}"
+        },
+        {
+          "name": "IMCategory",
+          "source_files": "PPUtilities/Category/IMCategory/**/*.{h,m}"
+        },
+        {
+          "name": "UIImageCategory",
+          "source_files": "PPUtilities/Category/UIImageCategory/**/*.{h,m}"
+        },
+        {
+          "name": "IMNSDate",
+          "ios": {
+            "dependencies": {
+              "PPUtilities/Category/Base": [
+
+              ],
+              "JWDateSetting": [
+
+              ]
+            }
+          },
+          "source_files": "PPUtilities/Category/IMNSDate/**/*.{h,m}"
+        },
+        {
+          "name": "OthersCategory",
+          "source_files": "PPUtilities/Category/OthersCategory/**/*.{h,m}"
+        }
+      ]
+    },
+    {
+      "name": "UI",
+      "subspecs": [
+        {
+          "name": "Base",
+          "source_files": "PPUtilities/UI/base/**/*.{h,m}"
+        },
+        {
+          "name": "UINavigationBarCategory",
+          "ios": {
+            "dependencies": {
+              "JRSwizzle": [
+
+              ]
+            }
+          },
+          "source_files": "PPUtilities/UI/UINavigationBarCategory/**/*.{h,m}"
+        }
+      ]
+    },
+    {
+      "name": "Helper",
+      "subspecs": [
+        {
+          "name": "Base",
+          "source_files": "PPUtilities/Helper/Base/**/*.{h,m}"
+        },
+        {
+          "name": "JGProgressHUDHelper",
+          "ios": {
+            "dependencies": {
+              "JGProgressHUD": [
+
+              ]
+            }
+          },
+          "source_files": "PPUtilities/Helper/JGProgressHUDHelper/**/*.{h,m}"
+        },
+        {
+          "name": "MDHTMLLabelHelper",
+          "ios": {
+            "dependencies": {
+              "MDHTMLLabel": [
+
+              ]
+            }
+          },
+          "source_files": "PPUtilities/Helper/MDHTMLLabelHelper/**/*.{h,m}"
+        },
+        {
+          "name": "StoryboardHelper",
+          "source_files": "PPUtilities/Helper/StoryboardHelper/**/*.{h,m}"
+        },
+        {
+          "name": "MJRefreshHelper",
+          "ios": {
+            "dependencies": {
+              "MJRefresh": [
+
+              ]
+            }
+          },
+          "source_files": "PPUtilities/Helper/MJRefreshHelper/**/*.{h,m}"
+        },
+        {
+          "name": "MLLabelHelper",
+          "ios": {
+            "dependencies": {
+              "MLLabel": [
+
+              ]
+            }
+          },
+          "source_files": "PPUtilities/Helper/MLLabelHelper/**/*.{h,m}"
+        },
+        {
+          "name": "UIDeviceHelper",
+          "ios": {
+            "dependencies": {
+              "SDVersion": [
+
+              ]
+            }
+          },
+          "source_files": "PPUtilities/Helper/UIDeviceHelper/**/*.{h,m}"
+        }
+      ]
+    },
+    {
+      "name": "Macro",
+      "source_files": "PPUtilities/Macro/**/*.{h,m}"
+    }
+  ]
+}
